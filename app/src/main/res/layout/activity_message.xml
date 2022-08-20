@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MessageActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="76dp"
+        android:orientation="horizontal"
+        android:background="#F7FBFC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <!-- item -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="55dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="55dp"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:id="@+id/img_toolbar"
+                android:scaleType="centerCrop"
+                android:src="@drawable/account_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </androidx.cardview.widget.CardView>
+            <!-- profile image-->
+        <TextView
+            android:id="@+id/txtChattingWith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressMessages"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMessages"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/edtText"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"/>
+
+    <EditText
+        android:id="@+id/edtText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/message_input_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:minHeight="40dp"
+        android:maxHeight="100dp"
+        android:paddingVertical="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:paddingHorizontal="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgSendMessage"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgSendMessage"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_send_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

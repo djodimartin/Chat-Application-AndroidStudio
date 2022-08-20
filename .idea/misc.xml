@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Developer/ChatApplication/app/src/main/res/drawable/account_img.xml" value="0.2965" />
+        <entry key="..\:/Developer/ChatApplication/app/src/main/res/drawable/gradient.xml" value="0.2955" />
+        <entry key="..\:/Developer/ChatApplication/app/src/main/res/drawable/message_input_background.xml" value="0.3115" />
+        <entry key="..\:/Developer/ChatApplication/app/src/main/res/drawable/round_blue_shape.xml" value="0.2955" />
+        <entry key="..\:/Developer/ChatApplication/app/src/main/res/layout/activity_friends.xml" value="0.18" />
+        <entry key="..\:/Developer/ChatApplication/app/src/main/res/layout/activity_main.xml" value="0.2875905797101449" />
+        <entry key="..\:/Developer/ChatApplication/app/src/main/res/layout/activity_message.xml" value="0.3283514492753623" />
+        <entry key="..\:/Developer/ChatApplication/app/src/main/res/layout/activity_profile.xml" value="0.18" />
+        <entry key="..\:/Developer/ChatApplication/app/src/main/res/layout/gradient.xml" value="0.6299603174603174" />
+        <entry key="..\:/Developer/ChatApplication/app/src/main/res/layout/message_holder.xml" value="0.3283514492753623" />
+        <entry key="..\:/Developer/ChatApplication/app/src/main/res/layout/user_holder.xml" value="0.3283514492753623" />
+        <entry key="..\:/Developer/ChatApplication/app/src/main/res/menu/profile_menu.xml" value="0.275" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
